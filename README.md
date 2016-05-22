@@ -1,5 +1,5 @@
 # savestagram_multiple
-Different version of [https://github.com/okanvurdu](Okan Vurdu)'s [https://github.com/okanvurdu/savestagram](savestagram).
+Different version of [Okan Vurdu](https://github.com/okanvurdu)'s [savestagram](https://github.com/okanvurdu/savestagram).
 
 Images are selectable this version and then selected every image download at the same time.
 
