@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+
+  "name": "Savestagram",
+  "short_name": "Savestagram",
+  "description": "This extension allows you to download photos from your Instagram feed.",
+  "version": "0.0.2",
+
+  "icons": {
+    "128": "icon.png"
+  },
+
+  "permissions": [
+    "*://*.instagram.com/*"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.instagram.com/*"],
+      "js": [
+        "jquery.min.js",
+        "app.js"
+      ],
+      "css": [
+        "app.css"
+      ]
+    }
+  ],
+  "offline_enabled": false
+}

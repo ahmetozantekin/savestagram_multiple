@@ -1,0 +1,42 @@
+a.savestagram_button {
+  background-color:#125688;
+  border-radius: 4px 0px 0px 0px;
+  bottom: 0px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 9pt;
+  padding: 8px;
+  position: fixed;
+  right: 0px;
+  z-index: 9999;
+}
+
+.savestagram_check {
+  background-color:#125688;
+  border-radius: 4px 0px 0px 0px;
+  top: 0px;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 9pt;
+  padding: 8px;
+  position: absolute;
+  right: 0px;
+  z-index: 9999;
+}
+
+a.savestagram_button:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+a.savestagram_button:visited {
+  color: #fff;
+}
+
+img.icon {
+  max-width: 8px;
+  margin-right: 6px;
+  display: inline-block;
+}
