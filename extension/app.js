@@ -32,10 +32,8 @@ $(function () {
   
   // Triggered OV's savestagram button
   $('.savestagram_button').click(function(){
-    console.log('bastın');
     for(var i=0; i<imgArr.length; i++){
        $('.savestagram_hidden').attr('href',imgArr[i]);
-       console.log($('.savestagram_hidden').attr('href'));
        $('.savestagram_hidden')[0].click();
        $('.savestagram_hidden').attr('href','');
     }
