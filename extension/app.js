@@ -25,7 +25,6 @@ $(function () {
   var imgArr = [];
   // Images url add stack every check
   $('.savestagram_check').click(function () {
-    console.log("");
     var imglink = $(this).parent().find('img').attr('src');
     imgArr.push(imglink);
   })
